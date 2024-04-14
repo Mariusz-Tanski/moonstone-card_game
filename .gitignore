@@ -1,0 +1,10 @@
+node_modules
+/.vscode
+.DS_Store
+development.env
+production.env
+dist
+.env
+/public
+*.log
+*.pem

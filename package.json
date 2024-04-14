@@ -1,0 +1,55 @@
+{
+  "name": "moonstone-card-game",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server/index.js",
+    "client": "webpack-dev-server --config webpack/dev.js --open",
+    "build": "webpack --config webpack/prod.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/colyseus/create-colyseus/issues"
+  },
+  "homepage": "https://github.com/colyseus/create-colyseus#readme",
+  "devDependencies": {
+    "@colyseus/loadtest": "^0.14.0",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.14.7",
+    "@colyseus/arena": "^0.14.7",
+    "@colyseus/command": "^0.1.7",
+    "@colyseus/monitor": "^0.14.0",
+    "@colyseus/social": "^0.10.9",
+    "babel-loader": "^8.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "colyseus": "^0.14.9",
+    "colyseus.js": "^0.14.12",
+    "copy-webpack-plugin": "^5.0.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "human-readable-ids": "^1.0.4",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "phaser": "^3.24.1",
+    "pug": "^3.0.2",
+    "raw-loader": "^3.1.0",
+    "rotating-file-stream": "^3.0.3",
+    "terser-webpack-plugin": "^2.3.8",
+    "web3": "^1.6.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^4.2.2"
+  }
+}
